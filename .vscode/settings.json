@@ -4,10 +4,17 @@
     "browserslist",
     "color",
     "color secundary",
+    "contato",
     "esnext",
+    "icon",
     "input",
     "proffy",
+    "proffy student",
+    "proffys",
     "secundary",
-    "textarea"
+    "student",
+    "textarea",
+    "whatsapp",
+    "whatsapp icon"
   ]
 }
