@@ -9,11 +9,11 @@ function TeacherItem() {
     <article className="teacher-item">
       <header>
         <img
-          src="https://avatars2.githubusercontent.com/u/2254731?s=400&u=0ba16a79456c2f250e7579cb388fa18c5c2d7d65&v=4"
-          alt="Diego Fernandes"
+          src="https://avatars3.githubusercontent.com/u/47761394?s=460&u=b3fc63a6cab9abed07023b0342b3df2964c98be2&v=4"
+          alt="Maicon Douglas"
         />
         <div>
-          <strong>Diogo Fernandes</strong>
+          <strong>Maicon Douglas</strong>
           <span>Quimica</span>
         </div>
       </header>
