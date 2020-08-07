@@ -1,60 +1,75 @@
-📢 About
-Proffy-Student is a FullStack Project built during the 2nd edition of Next Level Week promoted by Rocketseat.
+## 📢 About
+
+**Proffy-Student** is a fullstack project built during the **2nd** edition of **Next Level Week** promoted by Rocketseat.
 
 The objective of this project is to put into practice the best technologies available in the web development market to build an application compatible with desktop and mobile devices.
 
-With Proffy-Student the user must be able to choose between teaching and learning. See some possibilities:
+With **Proffy-Student** the user must be able to choose between teaching and learning. See some possibilities:
 
-Learn
-Available Proffy-Student
-Contact a Proffy-Student
-Favorite a Proffy-Student
-Filter by: Course, day of the week and time
-Teach
-Create a profile
-Create a class
+* **Learn**
+   * Available Proffys
+   * Contact a Proffy
+   * Favorite  a Proffy
+   * Filter by: course, day of the week and time
+* **Teach**
+   * Create a profile
+   * Create a class
 
-⚡ Tools
-HTML
 
-CSS
 
-ReactJS
+## ⚡ Tools
 
-React Native
+* HTML
 
-Expo
+* CSS
 
-TypeScript / JavaScript
+* ReactJS
+* React Native
+* Expo
 
-React Router v4
+* TypeScript / JavaScript
 
-NodeJS
+* React Router v4
 
-SQL (Sqlite)
+* NodeJS
 
-Migrations
+* SQL (sqlite)
 
-Knex
+* Migrations
 
-Express
+* Knex
 
-⬇️ Clone this project
-REQUIRED: You will need Yarn(or NPM) and NodeJS
+* Express
 
+  
+
+  
+
+## ⬇️ Clone this project
+
+> **REQUIRED**: You will need **Yarn**(or NPM) and **NodeJS**
+
+```bash
 # Clone this repository
-$ git clone https://github.com/MaiiconDouglas/Proffy-Student
-Run the Web page
+$ git clone https://github.com/MaiiconDouglas/Proffy-Student.git
+```
+
+### Run the Web page
+
+```bash
 # Navigate go to /Proffy-Student
 $ cd Proffy-Student
 
-# Install dependencies => only once
+# Install Dependencies => only once
 $ yarn install
 
 # Run the local server
 $ yarn start
-Run the server
+```
 
+### Run the server
+
+```bash
 # Navigate go to /server
 $ cd server
 
@@ -67,6 +82,8 @@ $ yarn knex:migrate
 
 # Run the local server
 $ yarn start
+```
+
 
 
 
