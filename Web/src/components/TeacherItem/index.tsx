@@ -1,42 +1,64 @@
 import React from "react";
 
+import whatsappIcon from "../../assets/images/icons/whatsapp.svg";
+import api from "../../services/api";
 import "./styles.css";
 
-import whatsappIcon from "../../assets/images/icons/whatsapp.svg";
-
-function TeacherItem() {
-  return (
-    <article className="teacher-item">
-      <header>
-        <img
-          src="https://avatars3.githubusercontent.com/u/47761394?s=460&u=b3fc63a6cab9abed07023b0342b3df2964c98be2&v=4"
-          alt="Maicon Douglas"
-        />
-        <div>
-          <strong>Maicon Douglas</strong>
-          <span>Quimica</span>
-        </div>
-      </header>
-      <p>
-        Aulas de Matemática bem estruturadas e expositiva.
-        <br /> <br />
-        Estude para o ENEM e Vestibulares no Melhor Cursinho com o Melhor Preço.
-        Pague em até 12x. ENEM com a melhor preparação. Parcelas por menos de R$
-        15 reais.
-      </p>
-
-      <footer>
-        <p>
-          Preço/hora
-          <strong>R$ 15,00</strong>
-        </p>
-        <button type="button">
-          <img src={whatsappIcon} alt="Whatsapp" />
-          Entrar em Contato
-        </button>
-      </footer>
-    </article>
-  );
+export interface Teacher {
+	avatar: string;
+	bio: string;
+	cost: number;
+	id: number;
+	name: string;
+	subject: string;
+	user_id: number;
+	whatsapp: string;
 }
+
+interface TeacherItemProps {
+	teacher: Teacher;
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({props}) => {
+	const { teacher } = props;
+
+	function createNewConnection() {
+		api.post("/connections", {
+			user_id: teacher.id,
+		});
+	}
+
+	return (
+		<article className="teacher-item">
+			<header>
+				<img src={teacher.avatar} alt={teacher.name} />
+				<div>
+					<strong>{teacher.name}</strong>
+					<span>{teacher.subject}</span>
+				</div>
+			</header>
+
+			<p>{teacher.bio}</p>
+
+			<footer>
+				<p>
+					Preço/hora
+					<strong>R$ {teacher.cost}</strong>
+				</p>
+
+				<a
+					onClick={createNewConnection}
+					href={`https://wa.me/${teacher.whatsapp}`}
+					rel="noopener noreferrer"
+					target="_blank"
+					type="button"
+				>
+					<img src={whatsappIcon} alt="Whatsapp" />
+					Entrar em contato
+				</a>
+			</footer>
+		</article>
+	);
+};
 
 export default TeacherItem;

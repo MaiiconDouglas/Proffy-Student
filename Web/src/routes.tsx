@@ -1,16 +1,18 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 
-import LandingPage from "./pages/Landing";
-import TeacherFormPage from "./pages/TeacherForm";
-import TeacherListPage from "./pages/TeacherList";
+import Landing from "./pages/Landing";
+import TeacherForm from "./pages/TeacherForm";
+import TeacherList from "./pages/TeacherList";
 
-export default function Routes() {
+function Routes() {
   return (
     <BrowserRouter>
-      <Route exact path="/" component={LandingPage} />
-      <Route path="/study" component={TeacherListPage} />
-      <Route path="/give-classes" component={TeacherFormPage} />
+      <Route component={Landing} exact path="/" />
+      <Route component={TeacherForm} path="/give-classes" />
+      <Route component={TeacherList} path="/study" />
     </BrowserRouter>
   );
 }
+
+export default Routes;
