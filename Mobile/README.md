@@ -1,10 +1,20 @@
-## 📢 About
+## 🚀 Tecnologias
 
-**Proffy-Student** is a fullstack project built during the **2nd** edition of **Next Level Week** promoted by Rocketseat.
+**Esse projeto foi desenvolvido com as seguintes tecnologias:**
+
+* Node.js
+* React
+* React Native
+* Expo
+
+
+## 💻 Projeto
+
+**Proffy** is a fullstack project built during the **2nd** edition of **Next Level Week** promoted by Rocketseat.
 
 The objective of this project is to put into practice the best technologies available in the web development market to build an application compatible with desktop and mobile devices.
 
-With **Proffy-Student** the user must be able to choose between teaching and learning. See some possibilities:
+With **Proffy** the user must be able to choose between teaching and learning. See some possibilities:
 
 * **Learn**
    * Available Proffys
@@ -15,35 +25,25 @@ With **Proffy-Student** the user must be able to choose between teaching and lea
    * Create a profile
    * Create a class
 
+## 🔖 Layout
+
+Você pode ver o layout detalhado através do figma. desse link. Ou se preferir, a página https://proffy-student.vercel.app/ (Em construção..).
 
 
 ## ⚡ Tools
 
 * HTML
-
 * CSS
-
 * ReactJS
 * React Native
 * Expo
-
 * TypeScript / JavaScript
-
 * React Router v4
-
 * NodeJS
-
 * SQL (sqlite)
-
 * Migrations
-
 * Knex
-
-* Express
-
-  
-
-  
+* Express  
 
 ## ⬇️ Clone this project
 
