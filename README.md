@@ -1,12 +1,3 @@
-## 🚀 Tecnologias
-
-**Esse projeto foi desenvolvido com as seguintes tecnologias:**
-
-* Node.js
-* React
-* React Native
-* Expo
-
 
 ## 💻 Projeto
 
@@ -24,6 +15,15 @@ With **Proffy** the user must be able to choose between teaching and learning. S
 * **Teach**
    * Create a profile
    * Create a class
+ 
+## 🚀 Tecnologias
+
+**Esse projeto foi desenvolvido com as seguintes tecnologias:**
+
+* Node.js
+* React
+* React Native
+* Expo
 
 ## ⚡ Tools
 
