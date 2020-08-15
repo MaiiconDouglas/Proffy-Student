@@ -25,11 +25,6 @@ With **Proffy** the user must be able to choose between teaching and learning. S
    * Create a profile
    * Create a class
 
-## 🔖 Layout
-
-Você pode ver o layout detalhado através do figma. desse link. Ou se preferir, a página https://proffy-student.vercel.app/ (Em construção..).
-
-
 ## ⚡ Tools
 
 * HTML
@@ -44,6 +39,20 @@ Você pode ver o layout detalhado através do figma. desse link. Ou se preferir,
 * Migrations
 * Knex
 * Express  
+
+## 🔖 Layout
+
+Você pode ver o layout detalhado através do Figma. desse link. Ou se preferir, 
+a página https://proffy-student.vercel.app/ (Em construção..).
+
+
+## 🤔 Como contribuir
+
+   * Faça um fork desse repositório;
+   * Cria uma branch com a sua feature: git checkout -b minha-feature;
+   * Faça commit das suas alterações: git commit -m 'feat: Minha nova feature';
+   * Faça push para a sua branch: git push origin minha-feature.
+                             Ou
 
 ## ⬇️ Clone this project
 
@@ -84,13 +93,13 @@ $ yarn knex:migrate
 $ yarn start
 ```
 
+**Depois que o merge da sua pull request for feito, você pode deletar a sua branch.**
 
+## 📝 Licença
 
+**Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.**
 
- ## 💻 Autor
-  
-  
----
+ ## 💻 Autor 
 
   <a  href="https://github.com/MaiiconDouglas/">
  <img src="https://avatars3.githubusercontent.com/u/47761394?s=460&u=b3fc63a6cab9abed07023b0342b3df2964c98be2&v=4" width="100px;" style="border-radius:50%;" alt="Maicon imagem"/>
