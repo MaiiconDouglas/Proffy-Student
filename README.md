@@ -46,12 +46,13 @@ Você pode ver o layout detalhado através do Figma. desse link. Ou se preferir,
 a página https://proffy-student.vercel.app/ (Em construção..).
 
 
-## 🤔 Como contribuir
+## 🤔 How to contribute
 
-   * Faça um fork desse repositório;
-   * Cria uma branch com a sua feature: git checkout -b minha-feature;
-   * Faça commit das suas alterações: git commit -m 'feat: Minha nova feature';
-   * Faça push para a sua branch: git push origin minha-feature.
+   * Fork this repository;
+   * Create a branch with your feature: git checkout -b minha-feature;
+   * Commit your changes: git commit -m 'feat: Minha nova feature';
+   * Push to your branch: git push origin minha-feature.
+   
                              Ou
 
 ## ⬇️ Clone this project
@@ -93,18 +94,18 @@ $ yarn knex:migrate
 $ yarn start
 ```
 
-**Depois que o merge da sua pull request for feito, você pode deletar a sua branch.**
+**After the merge of your pull request is done, you can delete your branch.**
 
-## 📝 Licença
+## 📝 License
 
-**Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.**
+**This project is under the MIT license. See the LICENSE file for more details.**
 
- ## 💻 Autor 
+ ## 💻 Author
 
   <a  href="https://github.com/MaiiconDouglas/">
  <img src="https://avatars3.githubusercontent.com/u/47761394?s=460&u=b3fc63a6cab9abed07023b0342b3df2964c98be2&v=4" width="100px;" style="border-radius:50%;" alt="Maicon imagem"/>
  <br /> <a/>
   
-Feito com ❤️ por Maicon Douglas 👋🏽 Entre em contato...!
+Made with ❤️ by Maicon Douglas 👋🏽 Get in touch ...!
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/maiconndouglas/)](https://www.linkedin.com/in/maiconndouglas/)
